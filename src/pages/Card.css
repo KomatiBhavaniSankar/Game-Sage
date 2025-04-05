@@ -1,0 +1,48 @@
+/* Card.css */
+.card {
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: white;
+    justify-content: center;
+    
+    display: inline-block;
+    margin: 1rem;
+    
+  }
+  
+  .card-image {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 1.5rem;
+  }
+  
+  .card-title {
+    margin: 0 0 1rem 0;
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  .card-description {
+    margin: 0 0 1rem 0;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .card-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .card-button:hover {
+    background-color: #020123;
+  }

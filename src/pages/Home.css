@@ -1,0 +1,15 @@
+#rom{
+    text-align: center;
+  
+     color: #f66112;
+}
+
+#cent{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+h1{
+ text-align: center;
+}
